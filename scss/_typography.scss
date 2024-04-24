@@ -1,0 +1,86 @@
+@import './variables';
+@import './mixins';
+
+li {
+    list-style: none;
+}
+
+a,
+button {
+    font-family: "Manrope", sans-serif;
+}
+
+.primary-btn {
+    display: block;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.primary-btn a {
+    padding: 10px 30px;
+    border-radius: 5px;
+
+    background-color: $clr-darkblue;
+    color: $clr-white;
+    border: 1px solid $clr-darkblue;
+
+    &:hover {
+        background-color: transparent;
+        color: $clr-darkblue;
+    }
+}
+
+.banner {
+    // height: 450px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: $clr-darkblue;
+    padding: 150px 0;
+    position: relative;
+}
+
+.bannertitle {
+    z-index: 1;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    left: 50%;
+    top: 50%;
+}
+
+p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: normal;
+    color: $clr-white;
+    font-family: "Manrope", sans-serif;
+
+    @include mq(sm) {
+        font-size: 15px;
+        text-align: justify;
+    }
+}
+
+
+h1 {
+    font-size: 37px;
+    font-weight: 600;
+    color: $clr-white;
+    margin-bottom: 20px;
+}
+
+h2 {
+    font-size: 30px;
+    line-height: normal;
+    font-weight: 500;
+    color: $clr-orange;
+}
+
+h3 {
+    color: $clr-orange;
+    font-size: 28px;
+
+    @include mq(sm) {
+        font-size: 24px;
+    }
+}

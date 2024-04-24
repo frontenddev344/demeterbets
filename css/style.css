@@ -1,0 +1,521 @@
+/*global start*/
+li {
+  list-style: none;
+}
+
+a,
+button {
+  font-family: "Manrope", sans-serif;
+}
+
+.primary-btn {
+  display: block;
+  text-align: center;
+  padding: 20px 0;
+}
+
+.primary-btn a {
+  padding: 10px 30px;
+  border-radius: 5px;
+  background-color: #5ba9f4;
+  color: #fff;
+  border: 1px solid #5ba9f4;
+}
+.primary-btn a:hover {
+  background-color: transparent;
+  color: #5ba9f4;
+}
+
+.banner {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: #5ba9f4;
+  padding: 150px 0;
+  position: relative;
+}
+
+.bannertitle {
+  z-index: 1;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  left: 50%;
+  top: 50%;
+}
+
+p {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: normal;
+  color: #fff;
+  font-family: "Manrope", sans-serif;
+}
+@media screen and (max-width: 575px) {
+  p {
+    font-size: 15px;
+    text-align: justify;
+  }
+}
+
+h1 {
+  font-size: 37px;
+  font-weight: 600;
+  color: #fff;
+  margin-bottom: 20px;
+}
+
+h2 {
+  font-size: 30px;
+  line-height: normal;
+  font-weight: 500;
+  color: #FC6736;
+}
+
+h3 {
+  color: #FC6736;
+  font-size: 28px;
+}
+@media screen and (max-width: 575px) {
+  h3 {
+    font-size: 24px;
+  }
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  font-size: 1.6rem;
+  font-family: "Gilda Display", serif;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+img {
+  width: 100%;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+  font-family: "Manrope", sans-serif;
+}
+
+a:focus {
+  color: inherit;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+.container {
+  max-width: 1280px;
+  margin: 0 auto;
+  width: 100%;
+}
+
+/*global end*/
+/*header start*/
+header.site-header {
+  background: transparent;
+  font-size: 18px;
+  padding: 14px 0;
+  font-weight: 700;
+  text-transform: capitalize;
+  color: #000000;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 999;
+  width: 100%;
+  transition: 0.3s;
+}
+
+header.site-header.sticky {
+  background: #5ba9f4;
+  padding: 10px 0;
+  position: fixed;
+}
+
+.site-header .site-nav ul li a.active {
+  color: #FC6736;
+}
+
+.site-logo img {
+  width: 100%;
+  max-width: 300px;
+}
+
+.site-nav a {
+  padding: 8px 12px !important;
+  display: inline-block;
+  font-weight: 500;
+  color: #fff;
+}
+.site-nav a:hover {
+  color: #FC6736;
+}
+
+.site-header {
+  padding: 10px 0;
+}
+
+.site-header .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.site-nav ul {
+  display: flex;
+  align-items: center;
+}
+
+.closed-menu {
+  display: none;
+}
+
+.menu-toggle {
+  display: none !important;
+}
+
+/*header end*/
+/*footer-css-start*/
+.footer {
+  background: #5ba9f4;
+  padding: 50px 0;
+}
+.footer-logo img {
+  max-width: 250px;
+}
+.footer-links h2 {
+  color: #FC6736;
+}
+.footer-links h3 {
+  color: #FC6736;
+  font-size: 25px;
+}
+.footer-links li a {
+  color: #fff;
+}
+.footer-links li a:hover {
+  color: #FC6736;
+}
+.footer-adresse h2 {
+  color: #FC6736;
+}
+.footer-adresse h3 {
+  color: #FC6736;
+  font-size: 25px;
+}
+.footer-adresse p {
+  color: #000000;
+}
+.footer-mails a,
+.footer-mails i {
+  color: #fff;
+}
+
+.social-signals {
+  padding: 25px 0;
+  cursor: pointer;
+}
+.social-signals i {
+  color: #fff;
+  font-size: 24px;
+  text-align: center;
+  line-height: 40px;
+  margin: 0 10px;
+  border: 1px solid #fff;
+  border-radius: 30px;
+  height: 40px;
+  width: 40px;
+  transition: 0.3s linear;
+}
+.social-signals i:hover {
+  transform: translateY(-10px);
+  color: #FC6736;
+}
+
+/*footer-css-end*/
+/*cookie start*/
+.cookie-alert {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  margin: 0 !important;
+  z-index: 999;
+  opacity: 0;
+  transform: translateY(100%);
+  transition: all 500ms ease-out;
+  left: 0;
+}
+
+.cookie-alert.show {
+  opacity: 1;
+  transform: translateY(0%);
+  transition-delay: 1000ms;
+}
+.cookie-alert.show p {
+  color: #000000;
+  line-height: normal;
+}
+
+a.btn.btn-primary.accept-cookies {
+  background: #5ba9f4;
+  padding: 6px 22px;
+  font-size: 20px;
+  border: 1px solid #5ba9f4;
+  color: #fff;
+}
+a.btn.btn-primary.accept-cookies:hover {
+  background-color: transparent;
+  color: #5ba9f4;
+  border: 1px solid #5ba9f4;
+}
+
+/*cookie end*/
+/*privacy-policy start*/
+.privacy__section.banner {
+  background-image: url(../images/privacybanner.avif);
+  text-align: center;
+  position: relative;
+}
+.privacy__section.banner::after {
+  content: none;
+}
+
+.privacy-policy {
+  padding: 40px 0;
+}
+.privacy-policy .content-wrap li {
+  font-size: 15px;
+  font-weight: 400;
+  line-height: normal;
+  font-family: "Manrope";
+  color: #5ba9f4;
+}
+
+.content-wrap h4 {
+  margin-bottom: 0;
+  font-weight: 600;
+}
+.content-wrap p {
+  color: #000000;
+  font-size: 15px;
+}
+.content-wrap li {
+  font-size: 15px;
+  font-weight: 400;
+  line-height: normal;
+  font-family: "Manrope";
+  color: #000000;
+}
+
+/*privacy-policy end*/
+/*terms-conditon start*/
+.terms__section.banner {
+  background-image: url(../images/termsbanner.jpg);
+  text-align: center;
+  position: relative;
+}
+.terms__section.banner::after {
+  content: none;
+}
+
+.terms {
+  padding: 40px 0;
+}
+.terms .content-wrap li {
+  font-size: 15px;
+  font-weight: 400;
+  line-height: normal;
+}
+.terms .content-wrap p {
+  color: #000000;
+}
+
+/*terms-conditon-end/
+
+    /*Start Faq css*/
+.faq-page {
+  width: 100%;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.casino-text.hoteli {
+  padding: 0 0 50px 0 !important;
+}
+
+.faq-item {
+  padding: 20px;
+  border-bottom: 1px solid #e0e0e0;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.faq-item:last-child {
+  border-bottom: none;
+}
+
+.faq-question {
+  font-size: 18px;
+  line-height: 25px;
+  color: #5ba9f4;
+  font-weight: 700;
+}
+
+.faq-section {
+  padding: 50px 0;
+}
+
+.faq-answer {
+  font-size: 16px;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.3s ease-in-out;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.faq-answer p {
+  padding-top: 25px;
+  padding-bottom: 25px;
+  color: #000000;
+}
+
+.faq-answer.active {
+  border-bottom: 1px solid #e0e0e0;
+}
+
+.icon-container i {
+  font-size: 16px;
+  cursor: pointer;
+  transition: transform 0.3s ease-in-out;
+}
+
+.icon-container i.active {
+  transform: rotate(90deg);
+}
+
+/*End Faq css*/
+/*homebanner-css-start*/
+.homebanner {
+  background-color: #5ba9f4;
+}
+
+.homepicture img {
+  height: 450px;
+  object-fit: cover;
+  border-radius: 12px;
+}
+
+.hometitle {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100%;
+}
+
+.toptext {
+  padding: 50px 0;
+}
+.toptext p {
+  color: #000000;
+}
+.toptext-para {
+  box-shadow: 0 0 7px 0 #FC6736;
+  padding: 20px;
+}
+
+.homecard-title h2 {
+  text-align: center;
+  margin: 50px 0;
+}
+
+.homecard-title a {
+  color: #000;
+}
+
+.homecard-picture img {
+  max-width: 100%;
+  width: 100%;
+  height: 250px;
+  object-fit: cover;
+  object-position: 50% 87%;
+  margin-bottom: 20px;
+}
+
+.homecard-content {
+  text-align: center;
+}
+.homecard-content p {
+  color: #000000;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.homecard-body {
+  box-shadow: rgba(252, 103, 54, 0.6784313725) 0px 0px 7px;
+  padding: 20px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.col-lg-4.col-md-6.col-sm-12.space {
+  margin: 10px 0;
+}
+
+/*homebanner-css-end*/
+/*macau-css-start*/
+.homecard-content img.img-fluid.star {
+  height: 30px;
+  object-fit: contain;
+}
+
+.macau .col-lg-6.col-md-6.col-sm-12.space {
+  margin: 10px 0;
+}
+
+.macaufood p {
+  color: #000000;
+  margin-bottom: 0;
+}
+
+.macaufood {
+  padding: 50px 0 0 0;
+}
+
+.tips-macau {
+  padding-bottom: 50px;
+}
+
+.tips-content span {
+  color: #5ba9f4;
+  font-weight: 500;
+}
+.tips-content p {
+  color: #000000;
+}
+
+/*macau-css-end*/
+
+
+/*# sourceMappingURL=style.css.map */
