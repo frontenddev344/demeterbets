@@ -243,7 +243,6 @@ header.site-header.sticky {
   transition: 0.3s linear;
 }
 .social-signals i:hover {
-  transform: translateY(-10px);
   color: #FC6736;
 }
 

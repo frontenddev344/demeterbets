@@ -192,7 +192,6 @@ header.site-header.sticky {
         transition: .3s linear;
 
         &:hover {
-            transform: translateY(-10px);
             color: $clr-orange;
         }
     }
