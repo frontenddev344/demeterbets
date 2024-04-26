@@ -246,6 +246,12 @@ header.site-header.sticky {
   color: #FC6736;
 }
 
+p.copyrighttext.pt-4 {
+  text-align: center;
+  border-top: 1px solid #fff;
+  margin-top: 15px;
+}
+
 /*footer-css-end*/
 /*cookie start*/
 .cookie-alert {
