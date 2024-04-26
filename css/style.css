@@ -204,6 +204,7 @@ header.site-header.sticky {
 .footer-links h3 {
   color: #FC6736;
   font-size: 25px;
+  font-weight: 600;
 }
 .footer-links li a {
   color: #fff;
@@ -217,6 +218,7 @@ header.site-header.sticky {
 .footer-adresse h3 {
   color: #FC6736;
   font-size: 25px;
+  font-weight: 600;
 }
 .footer-adresse p {
   color: #000000;
@@ -465,6 +467,15 @@ a.btn.btn-primary.accept-cookies:hover {
   object-position: 50% 87%;
   margin-bottom: 20px;
 }
+.homecard-picture img:hover {
+  filter: grayscale(1);
+}
+
+.homecard-picture.big img {
+  width: 100%;
+  height: 350px;
+  object-fit: cover;
+}
 
 .homecard-content {
   text-align: center;
@@ -482,6 +493,7 @@ a.btn.btn-primary.accept-cookies:hover {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  overflow: hidden;
 }
 
 .col-lg-4.col-md-6.col-sm-12.space {

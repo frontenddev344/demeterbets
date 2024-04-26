@@ -191,6 +191,10 @@
     .hometitle h1 {
         margin: 25px 0;
     }
+
+    .homecard-picture.big img {
+        height: 250px;
+    }
 }
 
 @media screen and (max-width:575px) {
