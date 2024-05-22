@@ -67,11 +67,11 @@ h2 {
   font-size: 30px;
   line-height: normal;
   font-weight: 500;
-  color: #FC6736;
+  color: gold;
 }
 
 h3 {
-  color: #FC6736;
+  color: gold;
   font-size: 28px;
 }
 @media screen and (max-width: 575px) {
