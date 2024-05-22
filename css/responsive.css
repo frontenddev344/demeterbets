@@ -4,7 +4,7 @@ li {
 
 a,
 button {
-  font-family: "Manrope", sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 
 .primary-btn {
@@ -47,7 +47,7 @@ p {
   font-weight: 400;
   line-height: normal;
   color: #fff;
-  font-family: "Manrope", sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 @media screen and (max-width: 575px) {
   p {
