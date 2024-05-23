@@ -547,7 +547,20 @@ a.btn.btn-primary.accept-cookies:hover {
   z-index: 0;
 }
 .homebanner{
-background-image: url(../images/asia_bg1.webp);
+background-image: url(../images/home_bg.avif);
+
+
+}
+.macaubanner{
+  background-image: url(../images/macau_bg.webp);
+ 
+}
+.singaporebanner{
+  background-image: url(../images/singapore_bg.jpg);
+  
+}
+.manilabanner{
+  background-image: url(../images/manila_bg.webp);
 
 }
 .banner::before {
@@ -555,7 +568,7 @@ background-image: url(../images/asia_bg1.webp);
   content: '';
   width: 100%;
   height: 100%;
-  background-color: #00000073;
+  background-color: #0000008c;
   top: 0;
   z-index: -1;
 }
