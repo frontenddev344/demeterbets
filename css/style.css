@@ -68,11 +68,11 @@ h2 {
   font-size: 30px;
   line-height: normal;
   font-weight: 500;
-  color: gold;
+  color: #ffe45c;
 }
 
 h3 {
-  color: gold;
+  color: #ffe45c;
   font-size: 28px;
 }
 @media screen and (max-width: 575px) {
@@ -148,7 +148,7 @@ header.site-header.sticky {
 }
 
 .site-header .site-nav ul li a.active {
-  color: gold;
+  color: #ffe45c;
 }
 
 .site-logo img {
@@ -163,7 +163,7 @@ header.site-header.sticky {
   color: #fff;
 }
 .site-nav a:hover {
-  color: gold;
+  color: #ffe45c;
 }
 
 .site-header {
@@ -199,10 +199,10 @@ header.site-header.sticky {
   max-width: 250px;
 }
 .footer-links h2 {
-  color: gold;
+  color: #ffe45c;
 }
 .footer-links h3 {
-  color: gold;
+  color: #ffe45c;
   font-size: 25px;
   font-weight: 600;
 }
@@ -210,13 +210,13 @@ header.site-header.sticky {
   color: #fff;
 }
 .footer-links li a:hover {
-  color: gold;
+  color: #ffe45c;
 }
 .footer-adresse h2 {
-  color: gold;
+  color: #ffe45c;
 }
 .footer-adresse h3 {
-  color: gold;
+  color: #ffe45c;
   font-size: 25px;
   font-weight: 600;
 }
@@ -245,7 +245,7 @@ header.site-header.sticky {
   transition: 0.3s linear;
 }
 .social-signals i:hover {
-  color: gold;
+  color: #ffe45c;
 }
 
 p.copyrighttext.pt-4 {
@@ -446,7 +446,7 @@ a.btn.btn-primary.accept-cookies:hover {
   color: #000000;
 }
 .toptext-para {
-  box-shadow: 0 0 7px 0 gold;
+  box-shadow: 0 0 7px 0 #ffe45c;
   padding: 20px;
 }
 
