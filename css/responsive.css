@@ -234,6 +234,9 @@ h3 {
   /* .for_margin_content{
     margin-top: 0px;
   } */
+  .site-nav a:hover {
+    color: #fff;
+}
 }
 @media screen and (max-width: 767px) {
   .hometitle h1 {
