@@ -231,6 +231,9 @@ h3 {
     max-width: unset;
     margin: unset;
   }
+  .for_margin_content{
+    margin-top: 0px;
+  }
 }
 @media screen and (max-width: 767px) {
   .hometitle h1 {
