@@ -68,11 +68,11 @@ h2 {
   font-size: 30px;
   line-height: normal;
   font-weight: 500;
-  color: #ffe45c;
+  color: #4a4c4e;
 }
 
 h3 {
-  color: #ffe45c;
+  color: #4a4c4e;
   font-size: 28px;
 }
 @media screen and (max-width: 575px) {
@@ -148,7 +148,7 @@ header.site-header.sticky {
 }
 
 .site-header .site-nav ul li a.active {
-  color: #ffe45c;
+  color: #4a4c4e;
 }
 
 .site-logo img {
@@ -163,7 +163,7 @@ header.site-header.sticky {
   color: #fff;
 }
 .site-nav a:hover {
-  color: #ffe45c;
+  color: #4a4c4e;
 }
 
 .site-header {
@@ -199,10 +199,10 @@ header.site-header.sticky {
   max-width: 250px;
 }
 .footer-links h2 {
-  color: #ffe45c;
+  color: #4a4c4e;
 }
 .footer-links h3 {
-  color: #ffe45c;
+  color: #4a4c4e;
   font-size: 25px;
   font-weight: 600;
 }
@@ -210,13 +210,13 @@ header.site-header.sticky {
   color: #fff;
 }
 .footer-links li a:hover {
-  color: #ffe45c;
+  color: #4a4c4e;
 }
 .footer-adresse h2 {
-  color: #ffe45c;
+  color: #4a4c4e;;
 }
 .footer-adresse h3 {
-  color: #ffe45c;
+  color: #4a4c4e;;
   font-size: 25px;
   font-weight: 600;
 }
@@ -245,7 +245,7 @@ header.site-header.sticky {
   transition: 0.3s linear;
 }
 .social-signals i:hover {
-  color: #ffe45c;
+  color: #4a4c4e;;
 }
 
 p.copyrighttext.pt-4 {
@@ -446,7 +446,7 @@ a.btn.btn-primary.accept-cookies:hover {
   color: #000000;
 }
 .toptext-para {
-  box-shadow: 0 0 7px 0 #ffe45c;
+  box-shadow: 0 0 7px 0 #4a4c4e;;
   padding: 20px;
 }
 
@@ -533,7 +533,7 @@ a.btn.btn-primary.accept-cookies:hover {
 }
 
 .homecard-body {
-  box-shadow: #ffe45c 0px 0px 7px!important;
+  box-shadow: #4a4c4e 0px 0px 7px!important;
 }
 
 .toptext-para_new p {
@@ -572,6 +572,20 @@ background-image: url(../images/home_bg.avif);
   background-color: #0000008c;
   top: 0;
   z-index: -1;
+}
+.site-header .site-nav ul li a.active {
+  color: #fff!important;
+}
+.site-header.sticky .site-nav ul li a.active{
+color: #4a4c4e!important;
+}
+
+
+.site-nav a:hover {
+  color: #5ba9f4;
+}
+.site-header.sticky .site-nav a:hover{
+  color: #4a4c4e;
 }
 /* .for_margin_content{
   margin-top: -40px;
